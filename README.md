@@ -27,15 +27,29 @@ MacOS:
 export HF_TOKEN="hugging_face_token"
 export OPENAI_TOKEN="open_ai_token"
 ```
+Sample prompt:
+```
+Here is some additional professional health knowledge that can help you better analyze the report:
+----------------------------------------------------------------------
+<Domain Knowledge>
+----------------------------------------------------------------------
+This is a patient’s medical record. Context information:
+----------------------------------------------------------------------
+<Medical report>
+----------------------------------------------------------------------
+Given the context and health knowledge, answer the below question by only one answer in JSON format with only one floating point number between 0 and 1 that is “score”. :
+Does the person described in the case have Hunger symptoms? Do you think it is serious?
+The rule of the JSON answer: 0-0.2 is mild or none, 0.3-0.6 is moderate, and above 0.7 is severe.
 
-LLM response generation comparison (on RTX 3060 GPU):
+```
+LLM sample response generation comparison with ground truth score as 0.2 (on RTX 3060 GPU):
 
 | Model      | Response Time  | RAM Usage* | Sample Output                      |
 |------------|------------|-----------|------------------------------------|
 | PHI-2      | 38 seconds | 3 GB      | The answer: {"score": 0.5} |
 | Mistral-7b | 4 minutes  | 19 GB     | The answer is: {"score": 0.3} |
 
-\* System ram usage, not GPU memory.
+\* System RAM usage, not GPU memory.
 
 ## Getting Started
 
