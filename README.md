@@ -35,7 +35,7 @@ LLM response generation comparison (on RTX 3060 GPU):
 | PHI-2      | 38 seconds | 3 GB      | The answer: {"score": 0.5} |
 | Mistral-7b | 4 minutes  | 19 GB     | The answer is: {"score": 0.3} |
 
-* its system ram usage, not GPU memory.
+\* System ram usage, not GPU memory.
 
 ## Getting Started
 
