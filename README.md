@@ -1,6 +1,11 @@
 # Sample RAG Implementation
 ![Python](https://img.shields.io/badge/Python-Compatible-green.svg)
 
+[![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm.svg)](https://huggingface.co/models)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991.svg?style=flat-square&logo=OpenAI&logoColor=white")
+
+
+  
 Features:
 - Simple domain knowledge included
 - Medical report cases as documents
