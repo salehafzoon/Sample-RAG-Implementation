@@ -1,6 +1,10 @@
 # Sample RAG Implementation
 
-
-Included LLMs:
-- Mistral
-- PHI-2
+Features:
+- Simple domain knowledge included
+- Medical report cases as documents
+- Automatic loading and saving LLMs
+- Loading local LLM capability
+- Included LLMs:
+  - Mistral 7b
+  - PHI-2
