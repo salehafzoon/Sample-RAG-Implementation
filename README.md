@@ -32,8 +32,8 @@ LLM response generation comparison (on RTX 3060 GPU):
 
 | Model      | response Time  | RAM Usage | Sample Output                      |
 |------------|------------|-----------|------------------------------------|
-| PHI-2      | 42 seconds | 3 GB      | "Yes, it is a serious symptom. The score is 0.7." |
-| Mistral-7b | 5 minutes | 19 GB     | "answer"                           |
+| PHI-2      | 38 seconds | 3 GB      | The answer: {"score": 0.5} |
+| Mistral-7b | 4 minutes  | 19 GB     | The answer is: {"score": 0.3} |
 
 
 ## Getting Started
