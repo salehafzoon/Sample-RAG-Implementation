@@ -21,13 +21,13 @@ Features:
 ## Authenitcal token setup for using Hugging face and OpenAI LLMs
 Windows:
 ```bash
-$env:HF_TOKEN= "hugging_face_token"
-$env:OpenAI_TOKEN= "open_ai_token"
+set HF_TOKEN= "hugging_face_token"
+set OPENAI_API_KEY= "openai_api_key"
 ```
 MacOS:
 ```bash
 export HF_TOKEN="hugging_face_token"
-export OPENAI_TOKEN="open_ai_token"
+export OPENAI_API_KEY="openai_api_key"
 ```
 Sample prompt:
 ```
