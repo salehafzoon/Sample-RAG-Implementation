@@ -48,6 +48,8 @@ LLM sample response generation comparison with ground truth score as 0.2 (on RTX
 |------------|------------|-----------|------------------------------------|
 | PHI-2      | 38 seconds | 3 GB      | The answer: {"score": 0.5} |
 | Mistral-7b | 4 minutes  | 19 GB     | The answer is: {"score": 0.3} |
+| GPT 3.5 turbo | -          | -         | {"score": 0.4} |
+| GPT 4      | -          | -         | '''json{"score": 0.1}''' |
 
 \* System RAM usage, not GPU memory.
 
