@@ -14,6 +14,8 @@ Features:
 - Included LLMs:
   - Mistral 7b
   - PHI-2
+  - GPT 3.5 turbo
+  - GPT 4
 
 
 ## Authenitcal token setup for using Hugging face and OpenAI LLMs
